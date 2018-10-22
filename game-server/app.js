@@ -1,3 +1,4 @@
+debugger;
 var pomelo = require('pomelo');
 var areaService = require('./app/services/areaService');
 var instanceManager = require('./app/services/instanceManager');

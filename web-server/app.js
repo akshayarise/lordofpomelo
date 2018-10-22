@@ -70,9 +70,10 @@ app.post('/login', function(req, res) {
   });
 });
 
-app.post('/register', function(req, res) {
+app.post('/register', function(req, res) { debugger
   //console.log('req.params');
   var msg = req.body;
+  console.log('msg<<<<<<<<<<<<<<<<<<<<',msg)
   if (!msg.name || !msg.password) {
     res.send({code: 500});
     return;
